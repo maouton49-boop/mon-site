@@ -1,0 +1,16 @@
+
+#include-created-date-in-title: true
+  created-date-string-format: MMMM dd, yyyy
+  perform-regex-removal: false
+  regex-text: '### Where to get it(\r\n)*You can .*\.'
+  multiline-regex: false
+
+issue-labels-include:
+  - Breaking Change
+  - Bug
+  - Documentation
+  - Feature
+  - Good First Issue
+  - Help Wanted
+  - Improvement
+  - Question
